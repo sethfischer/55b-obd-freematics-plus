@@ -1,0 +1,14 @@
+name: lint
+
+on: [pull_request, push]
+
+jobs:
+    lint:
+        runs-on: ubuntu-18.04
+
+    steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+
+        - name: Check clang-format conformity
+          run: bash ci/clang-lint
