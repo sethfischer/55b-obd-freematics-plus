@@ -1,3 +1,5 @@
+#ifndef UNIT_TEST
+
 #include <Arduino.h>
 
 #ifndef X55B_WIFI_SSID
@@ -11,3 +13,5 @@
 void setup() {}
 
 void loop() {}
+
+#endif
