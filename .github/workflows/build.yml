@@ -10,4 +10,4 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Build with PlatformIO
-              run: bash ci/build_platformio
+              run: bash ci/build-platformio.sh
