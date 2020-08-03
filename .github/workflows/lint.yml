@@ -10,4 +10,4 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Check clang-format conformity
-              run: bash ci/lint_clang
+              run: bash lint-c.sh
