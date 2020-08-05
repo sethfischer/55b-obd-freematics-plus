@@ -6,7 +6,6 @@ exit_code=0
 
 if [ "${GITHUB_WORKSPACE}x" != "x" ]; then
     cd "$GITHUB_WORKSPACE" || exit
-    sudo apt-get -y install clang-format
 fi
 
 # Check clang-format
