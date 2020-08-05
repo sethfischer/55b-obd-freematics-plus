@@ -2,7 +2,7 @@
 
 shopt -s globstar
 
-result_all=0
+exit_code=0
 
 if [ "${GITHUB_WORKSPACE}x" != "x" ]; then
     cd "$GITHUB_WORKSPACE" || exit
@@ -16,7 +16,7 @@ for filename in **/*.{cpp,h} ; do
         diff "$filename" <(clang-format -assume-filename=main.cpp "$filename") 1>&2
         # shellcheck disable=SC2181
         if [ $? -ne 0 ]; then
-            result_all=1
+            exit_code=1
             echo -e "Fail"
         else
             echo -e "Pass"
@@ -24,4 +24,4 @@ for filename in **/*.{cpp,h} ; do
     fi
 done
 
-exit $result_all
+exit $exit_code
