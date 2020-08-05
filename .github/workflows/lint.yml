@@ -9,5 +9,8 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v2
 
-            - name: Check clang-format conformity
+            - name: Lint C source
               run: bash lint-c.sh
+
+            - name: Lint shell scripts
+              run: bash lint-shell.sh
