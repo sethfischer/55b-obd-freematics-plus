@@ -9,6 +9,6 @@ if [ "${GITHUB_WORKSPACE}x" != "x" ]; then
     python get-platformio.py
 fi
 
-pio platform install "espressif32"
+platformio platform install "espressif32"
 
-pio run
+platformio run
