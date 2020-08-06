@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+set -o errexit -o noclobber -o nounset
 
 if [ "${GITHUB_WORKSPACE}x" != "x" ]; then
     cd "$GITHUB_WORKSPACE" || exit

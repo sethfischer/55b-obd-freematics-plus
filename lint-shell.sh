@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+set -o errexit -o noclobber -o nounset
 shopt -s globstar
 
 directory="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
