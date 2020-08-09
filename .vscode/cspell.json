@@ -4,6 +4,8 @@
     "language": "en",
     "words": [
         "freematics",
+        "gpio",
+        "jtag",
         "platformio",
         "ssid",
         "telematics",

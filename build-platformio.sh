@@ -11,4 +11,4 @@ fi
 
 platformio platform install "espressif32"
 
-platformio run
+platformio run --environment=freematics_one_plus --environment=freematics_one_plus_debug
