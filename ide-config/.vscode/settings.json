@@ -4,5 +4,38 @@
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "spellright.language": [
+        "en_GB"
+    ],
+    "spellright.configurationUpdate": true,
+    "spellright.configurationScope": "workspace",
+    "spellright.documentTypes": [
+        "cpp",
+        "ini",
+        "markdown",
+        "plaintext",
+        "python",
+        "shellscript",
+        "yaml"
+    ],
+    "spellright.ignoreFiles": [
+        ".clang-format",
+        ".vscode/settings.json"
+    ],
+    "spellright.ignoreRegExpsByClass": {
+        "cpp": [
+            "/println/g"
+        ],
+        "python": [
+            "/#!\/usr\/bin\/env/g",
+            "/(str\\(|stat)/g"
+        ],
+        "shellscript": [
+            "/#!\/usr\/bin\/env/g",
+            "/(cd|pwd|py|yml)/g",
+            "/shellcheck/g"
+        ]
+    },
+    "spellright.recheckOnSave": true
 }
