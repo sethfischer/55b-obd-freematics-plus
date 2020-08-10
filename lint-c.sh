@@ -11,7 +11,7 @@ fi
 # Check clang-format
 for filename in **/*.{cpp,h} ; do
     if [ -f "$filename" ]; then
-        echo -e "Check formating of ${filename}"
+        echo -e "Check formatting of ${filename}"
         diff "$filename" <(clang-format -assume-filename=main.cpp "$filename") 1>&2
         # shellcheck disable=SC2181
         if [ $? -ne 0 ]; then
