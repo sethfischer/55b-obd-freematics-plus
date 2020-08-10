@@ -20,3 +20,7 @@ upload-debug:
 upload-prod:
 	pio run -t upload -e freematics_one_plus
 	pio device monitor
+
+.PHONY: install-ide-config
+install-ide-config:
+	rsync --recursive ide-config/ .
