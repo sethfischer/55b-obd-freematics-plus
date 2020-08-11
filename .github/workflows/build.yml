@@ -15,4 +15,4 @@ jobs:
                   python-version: '3.6'
 
             - name: Build with PlatformIO
-              run: bash build-platformio.sh
+              run: bash build.sh
