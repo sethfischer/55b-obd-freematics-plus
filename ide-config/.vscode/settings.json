@@ -5,11 +5,8 @@
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
-    "spellright.language": [
-        "en_GB"
-    ],
-    "spellright.configurationUpdate": true,
     "spellright.configurationScope": "workspace",
+    "spellright.configurationUpdate": true,
     "spellright.documentTypes": [
         "cpp",
         "ini",
@@ -37,5 +34,8 @@
             "/shellcheck/g"
         ]
     },
+    "spellright.language": [
+        "en_GB"
+    ],
     "spellright.recheckOnSave": true
 }
