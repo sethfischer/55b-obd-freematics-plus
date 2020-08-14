@@ -1,11 +1,15 @@
 arduino
 clang
+cppdefines
+env
 espressif
 freematics
 gpio
 jtag
 obd
 platformio
+projenv
+pylint
 src
 ssid
 txt
