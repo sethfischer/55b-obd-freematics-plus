@@ -12,6 +12,7 @@ projenv
 pylint
 src
 ssid
+tr
 txt
 uuid
 wifi
