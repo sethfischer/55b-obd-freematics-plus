@@ -22,3 +22,6 @@ jobs:
 
             - name: Build with PlatformIO
               run: bash build.sh
+              env:
+                  X55B_WIFI_PASS: "password"
+                  X55B_WIFI_SSID: "ssid"
