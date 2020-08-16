@@ -2,6 +2,7 @@
 
 #include <Arduino.h>
 #include "debug/trace.h"
+#include "freematics_one_plus/pin_assignments.h"
 
 void setup() {
 #ifdef DEBUG
@@ -12,6 +13,9 @@ void setup() {
 #endif
 
     DEBUG_TRACE("setup() start")
+
+    pinMode(PIN_LED_BUILTIN, OUTPUT);
+    digitalWrite(PIN_LED_BUILTIN, LOW);
 
     DEBUG_TRACE("setup() end")
 }
