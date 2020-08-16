@@ -6,8 +6,8 @@
  * implement basic tracing.
  */
 
-#ifndef DEBUGTRACE_H
-#define DEBUGTRACE_H
+#ifndef DEBUG_TRACE_H_
+#define DEBUG_TRACE_H_
 
 #ifdef DEBUG
 #define DEBUG_TRACE(message) Serial.println(message);
