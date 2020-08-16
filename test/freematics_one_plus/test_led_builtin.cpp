@@ -3,18 +3,20 @@
 #include <Arduino.h>
 #include "unity.h"
 
-#define LED_BUILTIN 4
+#define PIN_LED_BUILTIN 4
 
-void test_led_builtin_pin_number(void) { TEST_ASSERT_EQUAL(4, LED_BUILTIN); }
+void test_led_builtin_pin_number(void) {
+    TEST_ASSERT_EQUAL(4, PIN_LED_BUILTIN);
+}
 
 void test_led_state_high(void) {
-    digitalWrite(LED_BUILTIN, HIGH);
-    TEST_ASSERT_EQUAL(HIGH, digitalRead(LED_BUILTIN));
+    digitalWrite(PIN_LED_BUILTIN, HIGH);
+    TEST_ASSERT_EQUAL(HIGH, digitalRead(PIN_LED_BUILTIN));
 }
 
 void test_led_state_low(void) {
-    digitalWrite(LED_BUILTIN, LOW);
-    TEST_ASSERT_EQUAL(LOW, digitalRead(LED_BUILTIN));
+    digitalWrite(PIN_LED_BUILTIN, LOW);
+    TEST_ASSERT_EQUAL(LOW, digitalRead(PIN_LED_BUILTIN));
 }
 
 void setup() {
@@ -22,7 +24,7 @@ void setup() {
 
     RUN_TEST(test_led_builtin_pin_number);
 
-    pinMode(LED_BUILTIN, OUTPUT);
+    pinMode(PIN_LED_BUILTIN, OUTPUT);
 }
 
 uint8_t i = 0;
