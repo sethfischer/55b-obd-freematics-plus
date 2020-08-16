@@ -1,5 +1,5 @@
 /*
- * Freematics One Plus pin assignments.
+ * Freematics ONE+ pin assignments.
  *
  * https://freematics.com/
  */
