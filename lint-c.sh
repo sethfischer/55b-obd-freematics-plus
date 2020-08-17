@@ -4,10 +4,6 @@ shopt -s globstar
 
 exit_code=0
 
-if [ "${GITHUB_WORKSPACE}x" != "x" ]; then
-    cd "$GITHUB_WORKSPACE" || exit
-fi
-
 # Check clang-format
 for filename in **/*.{cpp,h} ; do
     if [ -f "$filename" ]; then
