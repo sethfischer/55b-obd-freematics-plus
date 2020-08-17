@@ -2,8 +2,8 @@
 
 #include <Arduino.h>
 #include <BluetoothSerial.h>
-#include "debug/trace.h"
-#include "freematics_one_plus/pin_assignments.h"
+#include "Debug/Trace.h"
+#include "FreematicsOnePlus/PinAssignments.h"
 
 #ifdef DEBUG
 BluetoothSerial SerialBT;
