@@ -25,9 +25,9 @@ void setup() {
     digitalWrite(PIN_LED_BUILTIN, LOW);
 #endif
 
-    DEBUG_TRACE("setup() start")
+    DEBUG_TRACE("[DEBUG] setup() start")
 
-    DEBUG_TRACE("setup() end")
+    DEBUG_TRACE("[DEBUG] setup() end")
 }
 
 void loop() {}
