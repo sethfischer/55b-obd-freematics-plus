@@ -1,6 +1,7 @@
 {
     "C_Cpp.dimInactiveRegions": false,
     "editor.formatOnSave": true,
+    "files.trimFinalNewlines": true,
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
