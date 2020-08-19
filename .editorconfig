@@ -9,8 +9,8 @@ insert_final_newline = true
 max_line_length = 80
 trim_trailing_whitespace = true
 
-[Makefile]
-indent_style = tab
+[{.vscode/extensions.json,ide-config/.vscode/extensions.json}]
+end_of_line = crlf
 
 [*.md]
 trim_trailing_whitespace = false
@@ -18,5 +18,5 @@ trim_trailing_whitespace = false
 [*.py]
 max_line_length = 88
 
-[{.vscode/extensions.json,ide-config/.vscode/extensions.json}]
-end_of_line = crlf
+[Makefile]
+indent_style = tab
