@@ -11,8 +11,8 @@
 
 #ifdef DEBUG
 #define DEBUG_TRACE(message) \
-    Serial.println(message); \
-    SerialBT.println(message);
+  Serial.println(message);   \
+  SerialBT.println(message);
 #else
 #define DEBUG_TRACE(x)
 #endif
