@@ -5,6 +5,9 @@
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile=setup.cfg"
+    ],
     "python.linting.pylintEnabled": true,
     "spellright.configurationScope": "workspace",
     "spellright.configurationUpdate": true,
@@ -19,6 +22,8 @@
     ],
     "spellright.ignoreFiles": [
         ".clang-format",
+        ".pio/**",
+        ".venv/**",
         ".vscode/settings.json"
     ],
     "spellright.ignoreRegExpsByClass": {
