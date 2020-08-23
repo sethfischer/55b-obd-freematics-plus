@@ -3,6 +3,7 @@
 #include <Arduino.h>
 #include <BluetoothSerial.h>
 #include <FreematicsPlus.h>
+
 #include "Debug/Trace.h"
 
 #ifdef DEBUG
