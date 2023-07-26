@@ -1,7 +1,7 @@
-## Expected behavior
+## Expected behaviour
 
 
-## Actual behavior
+## Actual behaviour
 
 
 ## Vehicle specifications
@@ -9,16 +9,18 @@
   - Manufacturer: Nissan
   - Model: Leaf
   - Year:
+  - VIN prefix:
 
 
-## Hardware specifications
+## OBD-II adapter hardware specifications
 
-  - OBD-II adapter manufacturer: Freematics
-  - OBD-II adapter model:
+  - Manufacturer: Freematics
+  - Model: One+ Model ?
+  - Add-ons:
 
 
 ## Steps to reproduce the problem
 
   1.
-  1.
-  1.
+  2.
+  3.
