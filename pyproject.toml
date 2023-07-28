@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "55b-obd-freematics-one-plus"
+version = "0.1.0"
+description = "55b Telematics OBD-II Freematics ONE+ adapter"
+authors = ["Seth Fischer <seth@fischer.nz>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+yamllint = "^1.32.0"
+
+
+[tool.poetry.group.pio.dependencies]
+platformio = "^6.1.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

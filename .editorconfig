@@ -12,7 +12,7 @@ trim_trailing_whitespace = true
 [{.vscode/extensions.json,ide-config/.vscode/extensions.json}]
 end_of_line = crlf
 
-[*.{cpp,h}]
+[*.{cpp,h,yml}]
 indent_size = 2
 
 [*.md]
